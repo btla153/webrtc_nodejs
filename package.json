@@ -1,0 +1,24 @@
+{
+  "name": "webrtc_nodejs",
+  "version": "1.0.0",
+  "description": "Video call application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/btla153/webrtc_nodejs.git"
+  },
+  "author": "Loan Anh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/btla153/webrtc_nodejs/issues"
+  },
+  "homepage": "https://github.com/btla153/webrtc_nodejs#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "socket.io": "^4.6.1"
+  }
+}
