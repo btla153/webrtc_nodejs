@@ -18,7 +18,7 @@ body {
     color: #212529;
     text-align: center;
 	display: block;
-	background-color: #7cdcff;
+	background-color: #baebfc;
 	font-family: 'Baloo Tamma 2', cursive;
 }
 
@@ -130,7 +130,7 @@ body {
 	
 	
 	#room_value {
-		margin-left: 20px;
+		margin-left: 50px;
 	}
 	
 	.local_div {
@@ -150,7 +150,7 @@ body {
 
 	#video_container {
 		display: flex;
-		width: 85%;
+		width: 95%;
 		margin: auto;
 		height: 80% 
 	}

@@ -16,8 +16,10 @@ app.get("/", function(req, res){
 });
 
 var server = http.createServer(app);
-
-server.listen(process.env.PORT || 8080);
+var port = process.env.PORT || 8080;
+server.listen(port, function () {
+    console.log("Express started on http://localhost:8080;");
+});
 
 var io = socketIO(server);
 
